@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Cream">#FFFDD0</color>
+    <color name="Eggshell">#F0EAD6</color>
+    <color name="ivory">#FFFFF0</color>
+    <color name="OffWhite">#FAF9F6</color>
+    <color name="Vanilla">#F3E5AB</color>
+    <color name="pearl">#E2DFD2</color>
+    <color name="Flower_girl">#1b1b1b</color>
+</resources>

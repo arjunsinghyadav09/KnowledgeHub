@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Flower_girl"
+    tools:context=".WebActivity">
+
+
+    <TextView
+        android:id="@+id/textCsec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-14dp"
+        android:fontFamily="cursive"
+        android:text="Cyber- Security"
+        android:textColor="@color/white"
+        android:textSize="69sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        app:cardCornerRadius="40dp">
+
+        <ImageView
+            android:id="@+id/imagecybSec"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cybersecuritylogo" />
+
+    </androidx.cardview.widget.CardView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+
+    <TextView
+        android:id="@+id/textcs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textColor="@color/pearl"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="23sp"
+        android:text="Cyber Security is the set of principles and practices designed to protect our computing resources and online information against threats. The technique of protecting internet-connected systems such as computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks is known as cybersecurity. We can divide cybersecurity into two parts one is cyber, and the other is security. Cyber refers to the technology that includes systems, networks, programs, and data. And security is concerned with the protection of systems, networks, applications, and information. In some cases, it is also called electronic information security or information technology security."></TextView>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textTechStackcs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/OffWhite"
+        android:fontFamily="serif-monospace"
+        android:textSize="35sp"
+        android:text="Tech Stack" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="80dp"
+        android:elevation="12dp"
+        app:cardCornerRadius="40dp">
+        <ImageView
+            android:id="@+id/imageCybSecure"
+            android:layout_width="200dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="centerCrop"
+            android:layout_height="100dp"
+            android:src="@drawable/sql"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="190dp"
+        android:layout_height="107dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:elevation="12dp"
+        app:cardCornerRadius="60dp">
+
+        <ImageView
+            android:id="@+id/imagecsPerl"
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="-10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/perl" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="-110dp"
+        android:elevation="12dp"
+        app:cardCornerRadius="60dp">
+
+        <ImageView
+            android:id="@+id/imagewcspython"
+            android:layout_width="200dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginLeft="-10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/python" />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

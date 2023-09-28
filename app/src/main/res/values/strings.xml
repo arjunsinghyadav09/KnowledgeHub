@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Knowledge Hub</string>
+    <string name="android_development">Android Development</string>
+    <string name="todo">TODO</string>
+    <string name="popular_technologies">Popular Technologies</string>
+    <string name="hub">Hub</string>
+    <string name="let_s_go">Let\'s GO !</string>
+    <string name="knowledge">Knowledge</string>
+    <string name="to">To</string>
+    <string name="welcome">WELCOME</string>
+    <string name="string">Welcome</string>
+</resources>

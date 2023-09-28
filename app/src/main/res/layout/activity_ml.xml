@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Flower_girl"
+    tools:context=".WebActivity">
+
+
+    <TextView
+        android:id="@+id/textWebDev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:fontFamily="cursive"
+        android:textColor="@color/white"
+        android:text="Machine Learning" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        app:cardCornerRadius="40dp">
+
+        <ImageView
+            android:id="@+id/imagewebDev"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ml" />
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="230dp">
+    <TextView
+        android:id="@+id/textWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textColor="@color/pearl"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="25sp"
+        android:text="Machine Learning is the field of study that gives computers the capability to learn without being explicitly programmed. ML is one of the most exciting technologies that one would have ever come across. As it is evident from the name, it gives the computer that makes it more similar to humans: The ability to learn. Machine learning is actively being used today, perhaps in many more places than one would expect."/>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textTechStackWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/OffWhite"
+        android:fontFamily="serif-monospace"
+        android:textSize="35sp"
+        android:text="Tech Stack" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="80dp"
+        android:elevation="12dp"
+        app:cardCornerRadius="40dp">
+        <ImageView
+            android:id="@+id/imageWeb"
+            android:layout_width="250dp"
+            android:layout_marginLeft="-12dp"
+            android:scaleType="centerCrop"
+            android:layout_height="100dp"
+            android:src="@drawable/python"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="190dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:elevation="12dp"
+        app:cardCornerRadius="30dp">
+
+        <ImageView
+            android:id="@+id/imagewebNode"
+            android:layout_width="200dp"
+            android:layout_height="110dp"
+            android:src="@drawable/r" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="-120dp"
+        android:elevation="12dp"
+        app:cardCornerRadius="40dp">
+
+        <ImageView
+            android:id="@+id/imagewebReact"
+            android:layout_width="200dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginLeft="-10dp"
+            android:src="@drawable/numpy" />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
